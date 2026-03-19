@@ -6,12 +6,12 @@ Official PyTorch distributions do not include ppc64le (IBM POWER) wheels. This r
 
 ## Pre-built Wheels
 
-If you just need a wheel, pre-built binaries for Python 3.11 are available in [`dist/`](./dist/):
+If you just need a wheel, pre-built binaries for Python 3.11 are available in the [Releases](https://github.com/YunshiWen/build_pytorch_ppc64le/releases):
 
-| Wheel | CUDA | Python |
-|---|---|---|
-| `torch-2.6.0+cu121-cp311-cp311-linux_ppc64le.whl` | 12.1 | 3.11 |
-| `torch-2.6.0+cu124-cp311-cp311-linux_ppc64le.whl` | 12.4 | 3.11 |
+| Release | CUDA | Python | Download |
+|---|---|---|---|
+| v2.6.0+cu121 | 12.1 | 3.11 | [torch-2.6.0+cu121-cp311-cp311-linux_ppc64le.whl](https://github.com/YunshiWen/build_pytorch_ppc64le/releases/download/v2.6.0%2Bcu121/torch-2.6.0+cu121-cp311-cp311-linux_ppc64le.whl) |
+| v2.6.0+cu124 | 12.4 | 3.11 | [torch-2.6.0+cu124-cp311-cp311-linux_ppc64le.whl](https://github.com/YunshiWen/build_pytorch_ppc64le/releases/download/v2.6.0%2Bcu124/torch-2.6.0+cu124-cp311-cp311-linux_ppc64le.whl) |
 
 To install a pre-built wheel, follow Steps 3–5 below to set up the runtime dependencies (you can omit `gcc`, `gxx`, `cmake`, and `ninja`), then run:
 
